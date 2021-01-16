@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-img = cv.imread('trex.png')
+img = cv.imread('download.png')
 
 cv.imshow('img', img)
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
